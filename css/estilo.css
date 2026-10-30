@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: rgba(219, 26, 26, 0.555);
+}
+header {
+    background-color: rgb(187, 37, 37);
+     text-align: center;
+     padding: 10px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 80px;
+     margin: 0;
+     padding: 0;
+}
+h2{
+    margin-left: 25px;
+    padding-bottom: 50px;
+}
+nav {
+     background-color: rgb(255, 182, 204);
+     text-align: center;
+     padding: 10px;
+     position:fixed;
+     top: 80px;
+     left: 0;
+     width: 100%;
+     height: 30px;
+     border-top: 1px solid #e96a6a;
+}
+main{
+    margin-top: 160px;
+    margin-bottom: 55px;
+    padding: 20px;
+}
+img{
+    width: 1500px;
+    height: 350px;
+    margin-left:0%; 
+}
+h1,h3 {
+    color:rgb(245, 245, 170);
+    font-family:"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif";
+
+}
+#secao_sobre {
+    color:aqua
+}
+#secao-sobre p {
+    color:darkred
+}
+.texto{
+    color: rgb(243, 237, 181);
+}
+iframe{
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+}
+video {
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 20px;
+}
+#secao_turismo {
+    margin-left: 20px;
+    padding: 20px;
+}
+.cartao-turismo { 
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+footer{
+    background-color: rgb(242, 255, 240);
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    color:azure;
+}
+input, textarea{
+    border-radius: 10px;
+    padding: 8px 10px;
+    border: 1px solid blue
+    background-color= azure;
+} 
+form, button{
+    font-family: 'Courier New', Courier, monospace;
+}
+button{
+    background-color: rgb(91, 207, 228);
+    color: wheat;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+a:link{
+    color:cadetblue
+}
+a:visited{
+    color: rgb(255, 255, 194)
+}
+a:hover{
+    color: rgb(247, 217, 217);
+    background-color: rgb(254, 255, 170);
+}
+a:active{
+    color: blue;
+}
